@@ -33,6 +33,7 @@
 	</body>
   	```
 2 En Javascript
+
 	* Se creo un array vacio, llamado: frutas, que almacenara cada fruta que se agregue
 	* Una vez ejecutado el boton "Agregar" se realizara la funcion agregarFruta(), ya especificada en el HTML, se efectuara lo siguiente:
 > Se crea una variable que almacenara la fruta insertada en el input (frutaIngresada).
