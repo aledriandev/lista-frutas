@@ -1,15 +1,15 @@
-var frutas=["Manzana", "Pera", "Piña", "Cereza","Naranja"];
+var frutas = [];
 
 function agregarFruta(){
 	var frutaIngresada=document.getElementById('ingresoFruta').value;
 	var respuestaFrutal = document.getElementById('frutaNueva');
 	
-	var muchasFrutas="";
+	var muchasFrutas = "";
 	frutas.push(frutaIngresada);
-	for (i=5; i<frutas.length; i++){
-		muchasFrutas+=i+1+". "+frutas[i]+"<br>";
+	for ( i=0 ; i<frutas.length ; i++){
+		muchasFrutas += i+1 + ". " + frutas[i] + "<br>";
 	}
 
-	respuestaFrutal.innerHTML=muchasFrutas;
-	document.getElementById('ingresoFruta').value="";
+	respuestaFrutal.innerHTML = muchasFrutas;
+	document.getElementById('ingresoFruta').value = "";
 }
