@@ -33,8 +33,15 @@
 	</body>
   	```
 2 En Javascript
-  * Se creo un array vacio, llamado: frutas, que almacenara cada fruta que se agregue
-  * Una vez ejecutado el boton "Agregar" se realizara la funcion agregarFruta(), ya especificada en el HTML, se efectuara lo siguiente:
+  * Se creo un array vacio, llamado: frutas, que almacenara cada fruta que se agregue.
+  * Una vez ejecutado el boton "Agregar" se realizara la funcion agregarFruta(), ya especificada en el HTML.
+  * Dentro de la funcion se hace los pasos siguientes:
+  * Se crea una variable que almacenara la fruta insertada en el input (frutaIngresada).
+  * Tambien se crea una variable que almacenara la respuesta que aparecera en el HTML.
+  * Pusheamos en el array frutas cada nueva fruta agregada.
+  * Recorremos el array y lo almacenamos como texto en una variable vacia, como queremos que se lea nuestro resultado.
+  * Llevamos la respuesta almacenada al HTML usando innerHTML.
+  * Al terminar de mostrar la respuesta, vaciamos el input.
   	
   	```javascript
 	var frutas = [];
@@ -53,13 +60,8 @@
 		document.getElementById('ingresoFruta').value = "";
 	}
 	```
-	
-> Se crea una variable que almacenara la fruta insertada en el input (frutaIngresada).
-> Tambien se crea una variable que almacenara la respuesta que aparecera en el HTML.
-> Pusheamos en el array frutas cada nueva fruta agregada.
-> Recorremos el array y lo almacenamos como texto en una variable vacia, como queremos que se lea nuestro resultado.
-> Llevamos la respuesta almacenada al HTML usando innerHTML.
-> Al terminar de mostrar la respuesta, vaciamos el input.
+
+> Todo lo realizado parece complejo, pero a veces es mas simple de lo que parece solo hace falta concentrarse un poquito y la magia sucedera.
 
 
 
