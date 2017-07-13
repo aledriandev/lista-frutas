@@ -61,7 +61,7 @@
 	}
 	```
 
-> Todo lo realizado parece complejo, pero a veces es mas simple de lo que parece solo hace falta concentrarse un poquito y la magia sucedera.
+> Todo lo realizado parece complejo, pero a veces es mas simple de lo que parece solo hace falta concentrarse un poquito y la magia sucedera...
 
 
 
