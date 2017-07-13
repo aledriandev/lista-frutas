@@ -9,5 +9,7 @@ function agregarFruta(){
 	for (i=5; i<frutas.length; i++){
 		muchasFrutas+=i+1+". "+frutas[i]+"<br>";
 	}
+
 	respuestaFrutal.innerHTML=muchasFrutas;
+	document.getElementById('ingresoFruta').value="";
 }
